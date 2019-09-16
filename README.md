@@ -10,7 +10,7 @@ Here are some must haves:
 - Header
     - Logo
     - Menu
-- Body
+-Section
     - Program Name
     - Faculties
     - Facility Pictures
@@ -27,4 +27,3 @@ Here are some must haves:
     - Admissions Office Contact
     - Copywright
 
-    
