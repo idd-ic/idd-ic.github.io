@@ -26,3 +26,5 @@ Here are some must haves:
     - Social Media Links
     - Admissions Office Contact
     - Copywright
+
+    
