@@ -20,6 +20,7 @@ Here are some must haves:
         - Application&&Qualifications 
         - Career Opportunities
         - Student Success
+        - Photos
 - Footer
     - About
     - Social Media Links
