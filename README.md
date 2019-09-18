@@ -10,13 +10,17 @@ Here are some must haves:
 - Header
     - Logo
     - Menu
+    - Search
 -Section
     - Program Name
     - Faculties
     - Facility Pictures
     - Program Menu 
+        - Overview
         - Course List 
-        - Admissions ((Domestic && International)) 
+        - Admissions 
+            - Domestic && International
+            - Tuition Fees
         - Application&&Qualifications 
         - Career Opportunities
         - Student Success
