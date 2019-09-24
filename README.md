@@ -32,6 +32,8 @@ Here are some must haves:
     - Copywright
 
 
-FONTS
+COLORS
+
+
 
 
