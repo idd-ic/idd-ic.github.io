@@ -35,6 +35,8 @@ COLORS
 
 ![image](https://user-images.githubusercontent.com/52459443/65473351-71828680-de45-11e9-8550-2bb19621e255.png)
 
+FONT
 
+Open sans pro
 
 
