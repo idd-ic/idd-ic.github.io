@@ -33,6 +33,12 @@ Here are some must haves:
 
 
 COLORS
+    main #287eaf
+    sec  #74b3ce
+    bg   #fffdf4
+    font #080708
+    error#8c271e
+    
 
 
 
