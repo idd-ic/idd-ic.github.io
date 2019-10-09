@@ -51,19 +51,17 @@ a {
 }
 ul li {
 	list-style: none;
-	display: inline;
 }
 .figure {
-	max-width: 600px;
-}
-.figure img {
-	max-width: 100%;
-	display: block;
+	padding-top: 4em;
+	height: auto;
+	width: auto;
 }
 .caption {
 	background-color: rgba(40, 125, 175, 0.452);
 	color: var(--txt);
 	padding: 0.5rem 0.5rem;
+	align-self: center;
 }
 .ov {
 	background-color: var(--bg);
@@ -91,10 +89,12 @@ ul li {
 	font-weight: bold;
 }
 .sc {
+	background-color: var(--sec);
 	padding: 2em;
+	align-self: center;
 }
 .sc .alumni {
-	background-color: var(--sec);
+	background-color: var(--prim);
 	width: 100px;
 	float: left;
 }
@@ -111,16 +111,16 @@ ul li {
 
 footer {
 	background-color: var(--sec);
-	padding: 1em;
 	margin-top: 30%;
 	text-align: center;
 }
 .copyright li {
-	padding: 1em;
-	font-size: 0.8em;
+	display: block;
+}
+.copyright> li {
 	font-weight: bold;
 }
-.copyright li> .smlinks >li img {
-	width: 5px;
-
+.copyright ul {
+	visibility: hidden;
+	position: relative;
 }
