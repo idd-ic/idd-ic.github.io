@@ -71,11 +71,10 @@ ul li {
 }
 .softwares li {
 	display: inline;
-	width: 100px;
 }
 .careers {
 	text-align: center;
-	padding: 4em;
+	padding: 2em;
 	margin: 1em 1em;
 }
 .careers li {
@@ -111,7 +110,7 @@ ul li {
 	border: 4px solid;
 	border-color: var(--sec);
 	text-align: center;
-	margin: 4em;
+	margin: 0.5em;
 }
 h1 {
 	font-size: 1.5em;
@@ -175,10 +174,12 @@ footer ul {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-
-
-
-
+.yrend {
+	margin: 4em;
+}
+.careers {
+	padding: 5em;
+}
 
 /*footer*/
 
