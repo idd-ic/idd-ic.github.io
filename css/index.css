@@ -43,7 +43,6 @@ body {
 }
 
 
-
 /*main*/
 a {
 	text-decoration: none;
@@ -56,12 +55,6 @@ ul li {
 	padding-top: 4em;
 	height: auto;
 	width: auto;
-}
-.caption {
-	background-color: rgba(40, 125, 175, 0.452);
-	color: var(--txt);
-	padding: 0.5rem 0.5rem;
-	align-self: center;
 }
 .ov {
 	background-color: var(--bg);
@@ -82,45 +75,130 @@ ul li {
 }
 .careers {
 	text-align: center;
-	padding: 2em;
+	padding: 4em;
 	margin: 1em 1em;
 }
 .careers li {
 	font-weight: bold;
 }
-.sc {
-	background-color: var(--sec);
-	padding: 2em;
-	align-self: center;
+.item {
+	background-color: #74b3ce8a;
+	padding: 0.5em;
+	margin: 0.5em;
 }
-.sc .alumni {
-	background-color: var(--prim);
-	width: 100px;
-	float: left;
+.theworks> div{
+	padding: 0.5em;
 }
-.sc figcaption {
-	font-size: 0.7em;
-} 
-.sc blockquote {
-	font-weight: bold;
-	text-align: right;
-	margin-left: 0.8;
+.theworks> div img {
+	position: relative;
 	display: block;
+	width: 100%;
+	height: auto;
 }
+.theworks> div p {
+	position: absolute;
+	background-color: var(--sec);
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	width: auto;
+	padding: 0.5em;
+	z-index: 3;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+.yrend {
+	border: 4px solid;
+	border-color: var(--sec);
+	text-align: center;
+	margin: 4em;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 2em;
+}
+.yrend img {
+	width: 60%;
+	height: auto;
+}
+.yrend blockquote {
+	margin: 2em;
+	padding: 2em; 
+}
+.ack hr {
+	border-top: 5px dotted var(--txt);
+	width: 100%;
+}
+.ack {
+	text-align: center;
+	margin-top: 15%;
+	padding: 2em;
+	font-style: italic;
+	font-size: 0.7em;
+}
+
 /*footer*/
 
 footer {
 	background-color: var(--sec);
-	margin-top: 30%;
+	margin-top: 5%;
 	text-align: center;
+	padding: 2em;
 }
-.copyright li {
-	display: block;
-}
-.copyright> li {
+footer ul {
 	font-weight: bold;
 }
-.copyright ul {
+.campuses li, .about li {
 	visibility: hidden;
-	position: relative;
+	max-height: 0px;
+}
+.copyright {
+	padding-top: 4em;
+
+}
+
+
+
+@media screen and (min-width: 840px) {
+
+.ov {
+	margin-right: 5em;
+	margin-left: 5em;
+	padding:2em;
+}	
+.sc {
+	margin: 5em;
+}
+.theworks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+/*footer*/
+
+footer .school {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.campuses li, .about li {
+	visibility: visible;
+	max-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
